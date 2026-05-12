@@ -13,6 +13,39 @@ No analizamos una muestra: analizamos **el espacio semántico completo** de tu m
 
 ---
 
+## Qué es GEORadar
+
+Analizamos cómo te ven los LLMs desde una lógica de negocio: mercado, funnel, personas, narrativa y competencia.
+
+A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y muestras reducidas— GEORadar trabaja con **customer personas diseñadas específicamente para cada marca** y estudios customizados de **3.000 a 30.000 prompts**, adaptados a su mercado y contextos reales de decisión. Más de **10× el volumen estándar** del sector.
+
+### Lo que distingue a GEORadar
+
+1. **Inteligencia de negocio, no dashboards.** Conclusiones, oportunidades y plan de acción priorizado — no datos crudos.
+2. **Personas simuladas en los propios LLMs.** Respuestas reales de ChatGPT, Gemini, Claude y Perplexity en contextos diseñados para replicar decisiones de negocio.
+3. **Volumen 10× sobre el estándar.** 3.000–30.000 prompts personalizados por estudio, con lógica científica de cobertura del espacio real de decisión.
+4. **Trazabilidad completa de fuentes.** No solo qué dice la IA — también de dónde lo saca.
+5. **Cobertura multinivel.** Persona × funnel × producto × atributo × mercado × idioma × competencia.
+6. **Equipo + plan + ejecución.** No solo análisis: equipo de expertos que ejecuta contigo. Triada S.A.M. · LEO · DOC cierra el ciclo hacia la web.
+
+### GEORadar por industria
+
+| Industria | Foco | Casos |
+|-----------|------|-------|
+| Finanzas | Visibilidad y confianza en IA para banca, seguros y fintech | Banco Sabadell |
+| Turismo | Recomendaciones de IA para destinos, hoteles y experiencias | Iberostar · PortAventura |
+| Consumo | Recomendaciones IA para alimentación, bebidas y cuidado personal | Coca-Cola · Danone · Nestlé |
+| Salud | Visibilidad en IA para sanidad y marcas médicas | Dexeus · Adeslas |
+| Automoción | Presencia en recomendaciones IA para marcas en la transición al eléctrico | Ford |
+| Energía | Narrativa en IA para utilities, renovables y transición energética | Veolia |
+| Institucional | Narrativa en IA para gobiernos, fundaciones e instituciones públicas | Generalitat de Catalunya · Fundación La Caixa |
+
+### Probado en marcas líderes
+
+Coca-Cola · Ford · Banco Sabadell · Danone · Veolia · Adeslas · Iberostar · PortAventura · Fundación La Caixa · Imagin · Selena · 3Cat · AstraZeneca · AXA · Naos · Mataró
+
+---
+
 ## Cómo trabajamos juntos: el principio de doble validación
 
 Cada fase del estudio se cierra con un ciclo **Propuesta → Feedback → Versión final**.
@@ -110,7 +143,7 @@ Esta es la fase técnica más densa. La dividimos en tres sub-fases.
 
 #### 4.1 — Generación del corpus completo de prompts
 
-**Qué hacemos.** **GEOAtlas** —nuestro generador de espacio semántico— produce el conjunto completo de prompts del estudio: típicamente **varios miles**, equilibrados y exhaustivos.
+**Qué hacemos.** **GEOAtlas** —nuestro generador de espacio semántico— produce el conjunto completo de prompts del estudio: entre **3.000 y 30.000 prompts** personalizados, equilibrados y exhaustivos —sin plantillas genéricas.
 
 Un algoritmo propietario de **completitud semántica** garantiza que hemos cubierto:
 

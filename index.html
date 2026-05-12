@@ -462,6 +462,145 @@
   .ex-card ul, .ex-card ol { padding-left: 18px; margin: 6px 0; }
   .ex-card li { margin-bottom: 3px; }
 
+  /* ---------- DIFFERENTIALS BOX ---------- */
+  .differentials {
+    background: var(--ink);
+    color: #fff;
+    padding: 36px 36px 28px;
+    margin: 28px 0 0;
+    border-left: 4px solid var(--accent);
+  }
+  .diff-title {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 24px;
+    font-weight: 700;
+  }
+  .diff-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px 36px;
+  }
+  .diff-item {
+    position: relative;
+    padding-top: 12px;
+    padding-left: 36px;
+    border-top: 1px solid rgba(255,255,255,0.16);
+  }
+  .diff-num {
+    position: absolute;
+    left: 0;
+    top: 14px;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+  }
+  .diff-item h4 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 6px;
+    color: #fff;
+    letter-spacing: -0.005em;
+    line-height: 1.25;
+  }
+  .diff-item p {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.78);
+    margin: 0;
+  }
+  .diff-item strong { color: #fff; }
+
+  /* ---------- INDUSTRIES GRID ---------- */
+  .industries-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px 20px;
+    margin: 20px 0 0;
+  }
+  .industry-card {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    gap: 16px;
+    padding: 16px 18px;
+    background: #fff;
+    border: 1px solid var(--line);
+    align-items: start;
+  }
+  .industry-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--paper);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ink);
+  }
+  .industry-icon svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 1.5; }
+  .industry-card h4 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 4px;
+    line-height: 1.2;
+  }
+  .industry-card .biz-desc {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.45;
+    margin: 0 0 6px;
+  }
+  .industry-card .biz-case {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  /* ---------- CLIENTS SECTION (REASON TO BELIEVE) ---------- */
+  .clients-section {
+    background: var(--ink);
+    color: #fff;
+    padding: 56px 0 60px;
+    margin: 56px 0;
+  }
+  .clients-section h2 { color: #fff; border-bottom-color: var(--accent); margin-bottom: 12px; }
+  .clients-section .lead { color: #fff; }
+  .clients-section p { color: rgba(255,255,255,0.72); }
+  .clients-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 32px 24px;
+    margin-top: 32px;
+    align-items: center;
+  }
+  .logo-cell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+  }
+  .logo-cell img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
+    opacity: 0.82;
+    transition: opacity 0.2s ease;
+  }
+  .logo-cell:hover img { opacity: 1; }
+
   /* ---------- TIMELINE TABLE ---------- */
   table.timeline {
     width: 100%;
@@ -606,6 +745,11 @@
     .colophon-inner { flex-direction: column; align-items: flex-start; }
     .colophon-meta { text-align: left; }
     .diagram-caption { flex-direction: column; gap: 4px; }
+    .diff-grid { grid-template-columns: 1fr; }
+    .industries-grid { grid-template-columns: 1fr; }
+    .clients-grid { grid-template-columns: repeat(3, 1fr); gap: 24px 16px; }
+    .differentials { padding: 26px 22px; }
+    .clients-section { padding: 36px 0 40px; }
   }
 
   @media print {
@@ -686,6 +830,111 @@
 </section>
 
 <section>
+  <h2>Qué es GEORadar</h2>
+  <p class="lead">Analizamos cómo te ven los LLMs desde una lógica de negocio: mercado, funnel, personas, narrativa y competencia.</p>
+  <p>A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y muestras reducidas— GEORadar trabaja con <strong>customer personas diseñadas específicamente para cada marca</strong> y estudios customizados de <strong>3.000 a 30.000 prompts</strong> adaptados a su mercado y contextos reales de decisión. Más de <strong>10× el volumen estándar</strong> del sector, con base metodológica representativa.</p>
+
+  <div class="differentials">
+    <div class="diff-title">Lo que distingue a GEORadar</div>
+    <div class="diff-grid">
+      <div class="diff-item">
+        <span class="diff-num">01</span>
+        <h4>Inteligencia de negocio, no dashboards</h4>
+        <p>No te entregamos datos crudos. Te damos conclusiones, oportunidades y un plan de acción priorizado con retorno medible — accionable desde la semana siguiente.</p>
+      </div>
+      <div class="diff-item">
+        <span class="diff-num">02</span>
+        <h4>Personas simuladas en los propios LLMs</h4>
+        <p>Las respuestas no son sintéticas ni hipotéticas: son <strong>respuestas reales</strong> de ChatGPT, Gemini, Claude y Perplexity en contextos diseñados para replicar decisiones de negocio.</p>
+      </div>
+      <div class="diff-item">
+        <span class="diff-num">03</span>
+        <h4>Volumen 10× sobre el estándar</h4>
+        <p><strong>3.000 a 30.000 prompts</strong> personalizados por estudio, sin plantillas genéricas. El volumen está diseñado con lógica científica para cubrir el espacio real de decisión —no por inflarlo.</p>
+      </div>
+      <div class="diff-item">
+        <span class="diff-num">04</span>
+        <h4>Trazabilidad completa de fuentes</h4>
+        <p>No solo qué dice la IA de tu marca, también <strong>de dónde lo saca</strong>. Auditamos cada URL que alimenta la conversación — la palanca real para mover el SoV en LLMs.</p>
+      </div>
+      <div class="diff-item">
+        <span class="diff-num">05</span>
+        <h4>Cobertura multinivel</h4>
+        <p>Persona × funnel × producto × atributo × mercado × idioma × competencia. El panorama real, no una vista de cliente "tipo medio".</p>
+      </div>
+      <div class="diff-item">
+        <span class="diff-num">06</span>
+        <h4>Equipo + plan + ejecución</h4>
+        <p>No solo análisis: equipo de expertos que <strong>ejecuta contigo</strong> el reposicionamiento. La triada S.A.M. · LEO · DOC cierra el ciclo hacia la web.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>GEORadar por industria</h2>
+  <p class="lead">Cada sector tiene un problema distinto con la IA. Hemos construido una versión por industria — con las preguntas correctas, los KPIs adecuados y casos demostrados.</p>
+  <div class="industries-grid">
+    <div class="industry-card">
+      <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M12 2L4 6v6c0 5 3.5 9 8 10 4.5-1 8-5 8-10V6l-8-4z"/><path d="M9 12l2 2 4-4"/></svg></div>
+      <div>
+        <h4>Finanzas</h4>
+        <p class="biz-desc">Visibilidad y confianza en IA para banca, seguros y fintech.</p>
+        <span class="biz-case">Banco Sabadell</span>
+      </div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><line x1="3" y1="12" x2="21" y2="12"/></svg></div>
+      <div>
+        <h4>Turismo</h4>
+        <p class="biz-desc">Presencia en recomendaciones de IA para destinos, hoteles y experiencias.</p>
+        <span class="biz-case">Iberostar · PortAventura</span>
+      </div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M6 5h12v15a1 1 0 01-1 1H7a1 1 0 01-1-1V5z"/><line x1="6" y1="9" x2="18" y2="9"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg></div>
+      <div>
+        <h4>Consumo</h4>
+        <p class="biz-desc">Recomendaciones IA para alimentación, bebidas y cuidado personal que compiten en el lineal de la IA.</p>
+        <span class="biz-case">Coca-Cola · Danone · Nestlé</span>
+      </div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon"><svg viewBox="0 0 24 24"><rect x="9" y="4" width="6" height="16" rx="1"/><rect x="4" y="9" width="16" height="6" rx="1"/></svg></div>
+      <div>
+        <h4>Salud</h4>
+        <p class="biz-desc">Visibilidad en IA para proveedores sanitarios y marcas médicas donde la confianza es la conversión.</p>
+        <span class="biz-case">Dexeus · Adeslas</span>
+      </div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M5 16l2-6h10l2 6"/><rect x="3" y="16" width="18" height="3" rx="1"/><circle cx="7" cy="19" r="1.5"/><circle cx="17" cy="19" r="1.5"/></svg></div>
+      <div>
+        <h4>Automoción</h4>
+        <p class="biz-desc">Presencia en recomendaciones IA para marcas en la transición al vehículo eléctrico.</p>
+        <span class="biz-case">Ford</span>
+      </div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M14 3l-7 12h5l-3 7 9-13h-6l2-6z"/></svg></div>
+      <div>
+        <h4>Energía</h4>
+        <p class="biz-desc">Narrativa en IA para utilities, renovables y la historia de la transición energética.</p>
+        <span class="biz-case">Veolia</span>
+      </div>
+    </div>
+    <div class="industry-card">
+      <div class="industry-icon"><svg viewBox="0 0 24 24"><path d="M4 10l8-5 8 5v10H4V10z"/><rect x="10" y="14" width="4" height="6"/><line x1="4" y1="20" x2="20" y2="20" stroke-width="2"/></svg></div>
+      <div>
+        <h4>Institucional</h4>
+        <p class="biz-desc">Narrativa en IA para gobiernos, fundaciones e instituciones públicas que gestionan su legitimidad a escala.</p>
+        <span class="biz-case">Generalitat de Catalunya · Fundación La Caixa</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
   <h2>Cómo trabajamos juntos</h2>
   <div class="principle">
     <p class="lead" style="font-size:18px;margin-bottom:6px">Doble validación en cada hito.</p>
@@ -702,6 +951,31 @@
 </section>
 
 </div>
+
+<section class="clients-section">
+  <div class="container">
+    <h2>Probado en marcas líderes</h2>
+    <p class="lead">La elección de las marcas que entienden que la IA es el nuevo canal de descubrimiento.</p>
+    <div class="clients-grid">
+      <div class="logo-cell"><img src="client-logos/coca-cola.png" alt="Coca-Cola"></div>
+      <div class="logo-cell"><img src="client-logos/ford.png" alt="Ford"></div>
+      <div class="logo-cell"><img src="client-logos/sabadell.png" alt="Banco Sabadell"></div>
+      <div class="logo-cell"><img src="client-logos/danone.png" alt="Danone"></div>
+      <div class="logo-cell"><img src="client-logos/veolia.png" alt="Veolia"></div>
+      <div class="logo-cell"><img src="client-logos/adeslas.png" alt="Adeslas"></div>
+      <div class="logo-cell"><img src="client-logos/iberostar.png" alt="Iberostar"></div>
+      <div class="logo-cell"><img src="client-logos/portaventura.png" alt="PortAventura World"></div>
+      <div class="logo-cell"><img src="client-logos/caixabank.png" alt="Fundación La Caixa"></div>
+      <div class="logo-cell"><img src="client-logos/imaginbank.png" alt="Imagin"></div>
+      <div class="logo-cell"><img src="client-logos/selena.png" alt="Selena"></div>
+      <div class="logo-cell"><img src="client-logos/3cat.png" alt="3Cat"></div>
+      <div class="logo-cell"><img src="client-logos/astrazeneca.png" alt="AstraZeneca"></div>
+      <div class="logo-cell"><img src="client-logos/axa.png" alt="AXA"></div>
+      <div class="logo-cell"><img src="client-logos/naos.png" alt="Naos"></div>
+      <div class="logo-cell"><img src="client-logos/mataro.png" alt="Mataró"></div>
+    </div>
+  </div>
+</section>
 
 <section class="overview">
   <div class="container">
@@ -918,7 +1192,7 @@
   <div class="sb">
     <div class="sb-label">Corpus</div>
     <div class="sb-content">
-      <p><strong>GEOAtlas</strong> genera miles de prompts —equilibrados, exhaustivos. Un algoritmo de <strong>completitud semántica</strong> determina el <strong>punto de saturación</strong>: añadir más prompts ya no aporta cobertura nueva. <button class="ex-btn" data-brand="fifa" aria-expanded="false" data-target="ex-corpus">FIFA</button></p>
+      <p><strong>GEOAtlas</strong> genera entre <strong>3.000 y 30.000 prompts</strong> personalizados —equilibrados y exhaustivos, sin plantillas genéricas. Un algoritmo de <strong>completitud semántica</strong> determina el <strong>punto de saturación</strong>: añadir más prompts ya no aporta cobertura nueva. <button class="ex-btn" data-brand="fifa" aria-expanded="false" data-target="ex-corpus">FIFA</button></p>
     </div>
   </div>
   <div class="sb">
