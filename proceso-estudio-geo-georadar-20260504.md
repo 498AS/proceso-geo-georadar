@@ -51,6 +51,38 @@ A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y mue
 | Energía | Narrativa en IA para utilities, renovables y transición energética | Veolia |
 | Institucional | Narrativa en IA para gobiernos, fundaciones e instituciones públicas | Generalitat de Catalunya · Fundación La Caixa |
 
+### Las 5 dimensiones que medimos
+
+| # | Dimensión | Qué mide | KPIs |
+|---|-----------|----------|------|
+| 1 | Visibilidad | Cuánto apareces, dónde y con qué consistencia | Share of Voice · Mention Share · Prompt Coverage · Model Coverage |
+| 2 | Preferencia | Cuántas veces la IA te recomienda y con qué prioridad | Recommendation Rate · Competitive Preference Rate · Rank in Recommendation Set |
+| 3 | Percepción | Cómo te describen, qué atributos te asignan y con qué tono | Sentiment Score · Narrative Alignment · Message Accuracy · Brand Attribute Presence · Attribute Sentiment |
+| 4 | Benchmark competitivo | Cómo quedas frente a la competencia | Competitive Benchmark · Relative Positioning · Attribute Gap · Source Gap |
+| 5 | Trazabilidad y activación | Qué fuentes construyen la respuesta y qué mejoras impulsan el rendimiento | Source Attribution · Citation Share · Content Effectiveness · Technical GEO Readiness |
+
+> Cada industria suma KPIs específicos del sector además de los comunes.
+
+### Preguntas frecuentes
+
+**¿Qué es el algoritmo de completitud semántica?**
+Mecanismo propietario de GEOAtlas que determina el **punto de saturación**: cuando añadir más prompts ya no aporta cobertura nueva. Garantiza que el estudio representa el 100% del mercado real.
+
+**¿Cómo se identifican los "competidores en la sombra"?**
+Cruzando la línea base oficial de competencia (Fase 1) con los resultados de los LLMs. Los modelos introducen actores no vigilados. Ejemplo Nike: la lista oficial incluye Adidas/Puma/Under Armour, pero en "running técnico" los LLMs recomiendan Hoka, On Running, Salomon. Hoka tiene 28% de SoV sin ser competidor "oficial".
+
+**¿Qué es GEOAtlas y cómo genera los prompts?**
+Módulo que genera el corpus cruzando personas × funnel × producto × mercado × idioma × LLM. Volumen 3.000–30.000 prompts. Aplica completitud semántica para detenerse en el punto de saturación.
+
+**¿En qué se diferencia GEORadar de un SaaS GEO típico?**
+Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste multi-LLM. Validación de contenidos (SAM). Optimización técnica (LEO). Capa de consultoría y plan accionable —no solo dashboard.
+
+**¿En cuánto tiempo se cierra un estudio?**
+4 semanas óptimo, 6 semanas máximo. Tras el estudio el dashboard sobre GEOdesk queda activo de forma continua.
+
+**¿Qué entregamos al final?**
+Auditoría completa · KPIs de las 5 dimensiones · diagnóstico de narrativa/fuentes/percepción · validación de contenidos · recomendaciones priorizadas · plan de acción de 90 días · dashboard dinámico online.
+
 ### Probado en marcas líderes
 
 Coca-Cola · Ford · Banco Sabadell · Danone · Veolia · Adeslas · Iberostar · PortAventura · Fundación La Caixa · Imagin · Selena · 3Cat · AstraZeneca · AXA · Naos · Mataró
