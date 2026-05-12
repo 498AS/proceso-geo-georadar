@@ -518,6 +518,66 @@
   }
   .diff-item strong { color: #fff; }
 
+  /* ---------- VERSUS TABLE (SaaS vs GEORadar) ---------- */
+  .versus {
+    background: #fff;
+    border: 1px solid var(--line-strong);
+    margin: 24px 0 0;
+  }
+  .versus-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    border-top: 1px solid var(--line);
+  }
+  .versus-row:first-child { border-top: 0; }
+  .versus-row > div {
+    padding: 14px 22px;
+    display: flex;
+    align-items: center;
+  }
+  .versus-row > div:first-child {
+    background: var(--paper);
+    color: var(--muted);
+    border-right: 1px solid var(--line);
+  }
+  .versus-row > div:last-child {
+    color: var(--ink);
+    font-weight: 500;
+  }
+  .versus-header {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 10.5px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .versus-header > div:first-child {
+    background: var(--ink) !important;
+    color: rgba(255,255,255,0.78) !important;
+  }
+  .versus-header > div:last-child {
+    background: var(--accent) !important;
+    color: #fff !important;
+  }
+  .versus-row > div:first-child::before {
+    content: "—";
+    color: var(--line-strong);
+    font-weight: 700;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  .versus-row > div:last-child::before {
+    content: "→";
+    color: var(--accent);
+    font-weight: 700;
+    margin-right: 10px;
+    flex-shrink: 0;
+  }
+  .versus-header > div::before { content: none !important; }
+
   /* ---------- INDUSTRIES GRID ---------- */
   .industries-grid {
     display: grid;
@@ -746,6 +806,8 @@
     .colophon-meta { text-align: left; }
     .diagram-caption { flex-direction: column; gap: 4px; }
     .diff-grid { grid-template-columns: 1fr; }
+    .versus-row { grid-template-columns: 1fr; }
+    .versus-row > div:first-child { border-right: 0; border-bottom: 1px solid var(--line); }
     .industries-grid { grid-template-columns: 1fr; }
     .clients-grid { grid-template-columns: repeat(3, 1fr); gap: 24px 16px; }
     .differentials { padding: 26px 22px; }
@@ -854,8 +916,8 @@
       </div>
       <div class="diff-item">
         <span class="diff-num">04</span>
-        <h4>Trazabilidad completa de fuentes</h4>
-        <p>No solo qué dice la IA de tu marca, también <strong>de dónde lo saca</strong>. Auditamos cada URL que alimenta la conversación — la palanca real para mover el SoV en LLMs.</p>
+        <h4>Metodología verificable</h4>
+        <p>Cada insight tiene <strong>fuentes verificadas, análisis cruzado entre motores y razonamiento documentado</strong>. No solo qué dice la IA — también de dónde lo saca y por qué. Trazabilidad completa, auditable.</p>
       </div>
       <div class="diff-item">
         <span class="diff-num">05</span>
@@ -864,9 +926,44 @@
       </div>
       <div class="diff-item">
         <span class="diff-num">06</span>
-        <h4>Equipo + plan + ejecución</h4>
-        <p>No solo análisis: equipo de expertos que <strong>ejecuta contigo</strong> el reposicionamiento. La triada S.A.M. · LEO · DOC cierra el ciclo hacia la web.</p>
+        <h4>Más que una herramienta: un socio estratégico</h4>
+        <p>No te entregamos una app y te dejamos solo. <strong>Equipo de consultores expertos que ejecuta contigo</strong>: implementación, reportes periódicos y la triada S.A.M. · LEO · DOC cerrando el ciclo hacia la web.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>No es un SaaS GEO. Es un sistema con agencia detrás.</h2>
+  <p class="lead">La diferencia entre comprar un dashboard y contratar un sistema que ejecuta contigo.</p>
+  <div class="versus">
+    <div class="versus-row versus-header">
+      <div>SaaS GEO típico</div>
+      <div>GEORadar (agencia con sistema)</div>
+    </div>
+    <div class="versus-row">
+      <div>Prompts genéricos por categoría</div>
+      <div>Customer personas diseñadas para tu marca</div>
+    </div>
+    <div class="versus-row">
+      <div>Muestras de 500–3.000 prompts</div>
+      <div>3.000–30.000 prompts personalizados</div>
+    </div>
+    <div class="versus-row">
+      <div>Dashboard con datos</div>
+      <div>Plan accionable con KPI, plazo y responsable</div>
+    </div>
+    <div class="versus-row">
+      <div>Auto-servicio: tú interpretas</div>
+      <div>Equipo de consultores que ejecuta contigo</div>
+    </div>
+    <div class="versus-row">
+      <div>Lo que dice la IA</div>
+      <div>Qué dice + de dónde lo saca + por qué</div>
+    </div>
+    <div class="versus-row">
+      <div>Una herramienta</div>
+      <div>Un sistema: GEOAtlas · GEOradar · GEOdesk · S.A.M. · LEO · DOC</div>
     </div>
   </div>
 </section>

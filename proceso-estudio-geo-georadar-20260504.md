@@ -24,9 +24,20 @@ A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y mue
 1. **Inteligencia de negocio, no dashboards.** Conclusiones, oportunidades y plan de acción priorizado — no datos crudos.
 2. **Personas simuladas en los propios LLMs.** Respuestas reales de ChatGPT, Gemini, Claude y Perplexity en contextos diseñados para replicar decisiones de negocio.
 3. **Volumen 10× sobre el estándar.** 3.000–30.000 prompts personalizados por estudio, con lógica científica de cobertura del espacio real de decisión.
-4. **Trazabilidad completa de fuentes.** No solo qué dice la IA — también de dónde lo saca.
+4. **Metodología verificable.** Fuentes verificadas, análisis cruzado entre motores y razonamiento documentado. Qué dice la IA + de dónde lo saca + por qué.
 5. **Cobertura multinivel.** Persona × funnel × producto × atributo × mercado × idioma × competencia.
-6. **Equipo + plan + ejecución.** No solo análisis: equipo de expertos que ejecuta contigo. Triada S.A.M. · LEO · DOC cierra el ciclo hacia la web.
+6. **Más que una herramienta: un socio estratégico.** Equipo de consultores expertos que ejecuta contigo. Triada S.A.M. · LEO · DOC cierra el ciclo hacia la web.
+
+### No es un SaaS GEO. Es un sistema con agencia detrás.
+
+| SaaS GEO típico | GEORadar (agencia con sistema) |
+|-----------------|--------------------------------|
+| Prompts genéricos por categoría | Customer personas diseñadas para tu marca |
+| Muestras de 500–3.000 prompts | 3.000–30.000 prompts personalizados |
+| Dashboard con datos | Plan accionable con KPI, plazo y responsable |
+| Auto-servicio: tú interpretas | Equipo de consultores que ejecuta contigo |
+| Lo que dice la IA | Qué dice + de dónde lo saca + por qué |
+| Una herramienta | Un sistema: GEOAtlas · GEOradar · GEOdesk · S.A.M. · LEO · DOC |
 
 ### GEORadar por industria
 
