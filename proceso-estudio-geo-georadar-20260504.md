@@ -140,6 +140,13 @@ Cruzando la línea base oficial de competencia (Fase 1) con los resultados de lo
 **¿Qué es GEOAtlas y cómo genera los prompts?**
 Módulo que genera el corpus cruzando personas × funnel × producto × mercado × idioma × LLM. Volumen 3.000–30.000 prompts. Aplica completitud semántica para detenerse en el punto de saturación.
 
+**¿Cómo identifica GEORadar los puntos de debilidad de una marca?**
+El dashboard procesa los datos de las IAs y los traduce en métricas y diagnóstico. Detecta vulnerabilidades por cuatro vías:
+1. **Sentiment Score por territorio** — identifica los temas concretos donde la marca es vulnerable (ej. FIFA: −0,31 en "transparencia", −0,18 en "sostenibilidad").
+2. **Source Attribution** — qué URLs alimentan la reputación negativa (ej. Nike: 12% de respuestas vienen de Reddit con sentiment −0,22).
+3. **Brechas en Mention Share / SoV** — caídas en nichos donde se debería liderar (ej. Coca-Cola: 62% global vs 34% en "bebidas saludables").
+4. **Matriz DAFO** en el diagnóstico estratégico — síntesis visual para alimentar el plan de acción.
+
 **¿En qué se diferencia GEORadar de un SaaS GEO típico?**
 Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste multi-LLM. Validación y alineación de contenidos (SAM). Optimización técnica de la Agent Experience (DOC). Generación de contenidos multicanal (LEO). Capa de consultoría y plan accionable —no solo dashboard.
 
