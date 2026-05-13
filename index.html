@@ -686,6 +686,223 @@
     font-weight: 700;
   }
 
+  /* ---------- CORE GEO KPIs GRID (6 universales) ---------- */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 20px 0 0;
+  }
+  .kpi-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    padding: 18px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .kpi-card .kpi-acronym {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  .kpi-card h4 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: 0;
+    letter-spacing: -0.005em;
+  }
+  .kpi-card p {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  /* ---------- PROPRIETARY KPIs (dark, by industry) ---------- */
+  .vertical-kpis {
+    background: var(--ink);
+    color: #fff;
+    padding: 36px 36px 32px;
+    margin: 20px 0 0;
+    border-left: 4px solid var(--accent);
+  }
+  .vertical-kpis-head {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 8px;
+    font-weight: 700;
+  }
+  .vertical-kpis h3 {
+    color: #fff;
+    margin: 0 0 18px;
+    font-size: 22px;
+  }
+  .vertical-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+  .vertical-kpi {
+    background: rgba(255,255,255,0.04);
+    border-top: 1px solid rgba(255,255,255,0.18);
+    padding: 14px 14px 16px;
+    position: relative;
+  }
+  .vertical-kpi.composite {
+    border-top: 2px solid var(--accent);
+    background: rgba(233,78,27,0.08);
+  }
+  .vertical-kpi .v-acronym {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 17px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px;
+  }
+  .vertical-kpi.composite .v-acronym { color: var(--accent); }
+  .vertical-kpi .v-name {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 10px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.75);
+    margin-bottom: 8px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .vertical-kpi .v-desc {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: rgba(255,255,255,0.72);
+    margin: 0;
+  }
+  .vertical-pill {
+    display: inline-block;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 9.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--accent);
+    background: rgba(233,78,27,0.14);
+    padding: 4px 10px;
+    border-radius: 3px;
+    margin-bottom: 14px;
+  }
+  .vertical-note {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 12px;
+    color: rgba(255,255,255,0.55);
+    margin-top: 18px;
+    font-style: italic;
+  }
+
+  /* ---------- INTENT & SENTIMENT DECODING ---------- */
+  .intent-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin: 18px 0 28px;
+  }
+  .intent-card {
+    background: #fff;
+    border: 1px solid var(--line);
+    border-top: 3px solid var(--accent);
+    padding: 16px 18px 18px;
+  }
+  .intent-card.informational { border-top-color: #2E9E5C; }
+  .intent-card.transactional { border-top-color: #2D7BB6; }
+  .intent-card.skeptical { border-top-color: #E5B53A; }
+  .intent-card.comparative { border-top-color: #C8102E; }
+  .intent-card h4 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0 0 6px;
+  }
+  .intent-card p {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 12.5px;
+    line-height: 1.45;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  .response-analysis {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 12px 0 0;
+  }
+  .response-card {
+    background: #fff;
+    border: 1px solid var(--line-strong);
+    padding: 20px 22px;
+  }
+  .response-card h4 {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin: 0 0 12px;
+    font-weight: 700;
+  }
+  .tone-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line);
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 13.5px;
+  }
+  .tone-row:last-of-type { border-bottom: 0; }
+  .tone-row .tone-label { color: var(--muted); }
+  .tone-row .tone-bad {
+    color: #C8102E;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .tone-row .tone-good {
+    color: #2E9E5C;
+    font-style: italic;
+    font-weight: 600;
+  }
+  .premise-example {
+    background: var(--paper);
+    border-radius: 4px;
+    padding: 12px 14px;
+    margin: 10px 0 0;
+    font-family: "JetBrains Mono", "Source Code Pro", Menlo, monospace;
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .premise-example .role { color: var(--accent); font-weight: 700; }
+  .premise-example .bad { color: #C8102E; }
+  .premise-example .good { color: #2E9E5C; }
+  .response-card .help {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: var(--muted);
+    margin: 12px 0 0;
+    font-style: italic;
+  }
+
   /* ---------- FAQs ---------- */
   .faq-list {
     margin: 24px 0 0;
@@ -929,6 +1146,11 @@
     .dim-card { border-right: 0; border-bottom: 1px solid var(--line); }
     .dim-card:last-child { border-bottom: 0; }
     .faq-item summary { font-size: 17px; }
+    .kpi-grid { grid-template-columns: 1fr; }
+    .vertical-grid { grid-template-columns: repeat(2, 1fr); }
+    .vertical-kpis { padding: 24px 20px; }
+    .intent-block { grid-template-columns: 1fr 1fr; }
+    .response-analysis { grid-template-columns: 1fr; }
     .differentials { padding: 26px 22px; }
     .clients-section { padding: 36px 0 40px; }
   }
@@ -1202,6 +1424,193 @@
     </div>
   </div>
   <p style="margin-top: 18px; font-size: 14px; color: var(--muted);"><em>Cada industria suma KPIs específicos del sector además de los comunes.</em></p>
+</section>
+
+<section>
+  <h2>Core GEO KPIs — estándar de mercado</h2>
+  <p class="lead">6 KPIs universales que cuantifican <strong>presencia competitiva y brand health</strong> en ecosistemas de IA. Aplican a cualquier sector.</p>
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-acronym">SOV</span>
+      <h4>Share of Voice</h4>
+      <p>Porcentaje de menciones totales en IA frente a tus competidores clave en los temas que te importan.</p>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-acronym">BIS</span>
+      <h4>Brand Impact Score</h4>
+      <p>Índice de calidad de las menciones basado en prominencia, contexto y longitud de la respuesta de la IA.</p>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-acronym">SENTIMENT</span>
+      <h4>Sentiment Score</h4>
+      <p>Análisis neto Positive / Neutral / Negative de cómo la IA representa la marca en sus respuestas.</p>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-acronym">POSITION</span>
+      <h4>Position Score</h4>
+      <p>Ranking medio de la marca en respuestas en formato lista (ej. "Top 5 X en Y mercado").</p>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-acronym">AFFINITY</span>
+      <h4>Attribute Affinity</h4>
+      <p>Fuerza de asociación con tus valores clave (sostenibilidad, lujo, innovación, democracia, etc.).</p>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-acronym">CO-BRAND</span>
+      <h4>Co-branding Heatmap</h4>
+      <p>Análisis de correlación: qué entidades, marcas o conceptos co-aparecen con frecuencia con tu marca.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>KPIs propietarios por industria</h2>
+  <p class="lead">Además de los Core, cada vertical suma <strong>8 KPIs propietarios</strong> que decodifican el ADN narrativo de las respuestas IA. Miden profundidad, precisión y alineación de framing más allá del sentimiento.</p>
+
+  <div class="vertical-kpis">
+    <div class="vertical-kpis-head">GEORadar Civic · Instituciones públicas</div>
+    <span class="vertical-pill">Piloto: EU / INTPA — El Salvador</span>
+    <div class="vertical-grid">
+      <div class="vertical-kpi">
+        <span class="v-acronym">RII</span>
+        <div class="v-name">Response Integrity Index</div>
+        <p class="v-desc">Precisión factual y coherencia estructural de la respuesta de la IA.</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">BES</span>
+        <div class="v-name">Bias & Error Score</div>
+        <p class="v-desc">Detecta alucinaciones, estereotipos o framing obsoleto ("colonial" vs "partner").</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">KDS</span>
+        <div class="v-name">Knowledge Depth Score</div>
+        <p class="v-desc">Granularidad de la información: proyectos específicos vs. afirmaciones genéricas.</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">LPS</span>
+        <div class="v-name">Latent Persuasion Score</div>
+        <p class="v-desc">Poder persuasivo y fuerza retórica de la narrativa que la IA construye.</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">IVR</span>
+        <div class="v-name">Institutional Visibility Rate</div>
+        <p class="v-desc">Frecuencia de menciones explícitas de las instituciones (Comisión, Parlamento, INTPA).</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">APV</span>
+        <div class="v-name">Active Promotion Value</div>
+        <p class="v-desc">Si la IA recomienda proactivamente los programas como solución a problemas del usuario.</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">CAR</span>
+        <div class="v-name">Competitive Attribution Rate</div>
+        <p class="v-desc">Cuántas veces los logros propios son malatribuidos a otros actores (USAID, China, UN).</p>
+      </div>
+      <div class="vertical-kpi composite">
+        <span class="v-acronym">NAS ★</span>
+        <div class="v-name">Narrative Alignment Score</div>
+        <p class="v-desc">Compuesto 0-100. Cuán bien la narrativa de la IA encaja con tus objetivos estratégicos.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="vertical-kpis">
+    <div class="vertical-kpis-head">GEORadar Travel · Turismo y hospitality</div>
+    <div class="vertical-grid">
+      <div class="vertical-kpi">
+        <span class="v-acronym">AAS</span>
+        <div class="v-name">Attribute Alignment Score</div>
+        <p class="v-desc">Hasta qué punto la IA describe el destino/marca con los atributos trabajados (lujo, familiar, aventura).</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">EDI</span>
+        <div class="v-name">Experience Diversity Index</div>
+        <p class="v-desc">Variedad de experiencias que la IA asocia al destino (gastronomía, naturaleza, cultura, deporte).</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">VISD</span>
+        <div class="v-name">Seasonal Visibility Delta</div>
+        <p class="v-desc">Diferencia de visibilidad entre temporadas. Mide si la IA recomienda todo el año o solo en pico.</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">BLI</span>
+        <div class="v-name">Bucket List Index</div>
+        <p class="v-desc">Frecuencia con la que la IA te incluye en listas aspiracionales tipo "destinos para visitar".</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">SPS</span>
+        <div class="v-name">Safety Perception Score</div>
+        <p class="v-desc">Cómo la IA describe la seguridad del destino. Crítico para destinos con percepción de riesgo.</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">SC</span>
+        <div class="v-name">Sustainability Score</div>
+        <p class="v-desc">Cómo la IA valora credenciales de sostenibilidad y turismo responsable.</p>
+      </div>
+      <div class="vertical-kpi">
+        <span class="v-acronym">DHS</span>
+        <div class="v-name">Destination Health Score</div>
+        <p class="v-desc">Salud reputacional general: ausencia de framing negativo (turismo masivo, problemas estructurales).</p>
+      </div>
+      <div class="vertical-kpi composite">
+        <span class="v-acronym">LRP ★</span>
+        <div class="v-name">Local Recommendation Position</div>
+        <p class="v-desc">Ranking en respuestas geolocalizadas ("hoteles en Barcelona", "restaurantes en Lisboa").</p>
+      </div>
+    </div>
+    <p class="vertical-note">Próximas verticales con set propio: Auto · Banking · Consumer · Energy · Health.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Decodificación de intención y sentimiento</h2>
+  <p class="lead">Más que medir si te mencionan: descodificamos <strong>cómo te mencionan</strong>, <strong>ante qué intención del usuario</strong> y <strong>con qué postura implícita</strong>.</p>
+
+  <h3>1. Clasificación de intención del usuario</h3>
+  <p>Cada prompt del corpus se etiqueta con una de 4 intenciones, porque la estrategia de respuesta cambia según el contexto:</p>
+  <div class="intent-block">
+    <div class="intent-card informational">
+      <h4>Informational</h4>
+      <p>Consultas generales sobre hechos o historia. Bajo riesgo, alto volumen.</p>
+    </div>
+    <div class="intent-card transactional">
+      <h4>Transactional</h4>
+      <p>"Cómo solicitar", "Dónde descargar". Alto valor, indica acción.</p>
+    </div>
+    <div class="intent-card skeptical">
+      <h4>Skeptical</h4>
+      <p>Dudas sobre efectividad o motivos. Requiere respuestas de construcción de confianza.</p>
+    </div>
+    <div class="intent-card comparative">
+      <h4>Comparative</h4>
+      <p>Comparativas directas ("X vs Y"). Crítico para posicionamiento competitivo.</p>
+    </div>
+  </div>
+
+  <h3>2. Análisis de respuesta de la IA</h3>
+  <div class="response-analysis">
+    <div class="response-card">
+      <h4>Implicit Sentiment Tone</h4>
+      <div class="tone-row">
+        <span class="tone-label">Weak / Defensive:</span>
+        <span class="tone-bad">"Apologetic"</span>
+      </div>
+      <div class="tone-row">
+        <span class="tone-label">Strong / Leading:</span>
+        <span class="tone-good">"Assertive"</span>
+      </div>
+      <p class="help">¿La IA habla de tu marca como excusa o como referente confiado?</p>
+    </div>
+    <div class="response-card">
+      <h4>Premise Validation</h4>
+      <div class="premise-example">
+<span class="role">Usuario:</span> "¿Por qué falló el proyecto X?"<br>
+<span class="role">IA (mala):</span> <span class="bad">"El proyecto falló porque…"</span> (valida la premisa falsa)<br>
+<span class="role">IA (buena):</span> <span class="good">"En realidad, el proyecto completó la Fase 1…"</span> (corrige)
+      </div>
+      <p class="help">Detectamos si la IA acepta implícitamente asunciones negativas del prompt del usuario.</p>
+    </div>
+  </div>
 </section>
 
 <section>

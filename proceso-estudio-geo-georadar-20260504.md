@@ -63,6 +63,72 @@ A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y mue
 
 > Cada industria suma KPIs específicos del sector además de los comunes.
 
+### Core GEO KPIs (estándar de mercado)
+
+6 KPIs universales que cuantifican presencia competitiva y brand health en ecosistemas de IA. Aplican a cualquier sector.
+
+| KPI | Qué mide |
+|-----|----------|
+| **Share of Voice (SOV)** | % de menciones totales en IA frente a competidores clave en tus temas. |
+| **Brand Impact Score (BIS)** | Calidad de las menciones: prominencia, contexto y longitud de la respuesta IA. |
+| **Sentiment Score** | Net sentiment Positive/Neutral/Negative de la representación de marca. |
+| **Position Score** | Ranking medio en respuestas en formato lista ("Top 5 X en Y"). |
+| **Attribute Affinity** | Fuerza de asociación con valores clave (sostenibilidad, lujo, democracia…). |
+| **Co-branding Heatmap** | Correlación: qué entidades co-aparecen con tu marca. |
+
+### KPIs propietarios por industria
+
+Además de los Core, cada vertical suma 8 KPIs propietarios que decodifican el ADN narrativo de las respuestas IA.
+
+#### GEORadar Civic — 8 KPIs para instituciones públicas
+> Piloto: EU/INTPA en El Salvador.
+
+| Acrónimo | Nombre | Qué mide |
+|----------|--------|----------|
+| RII | Response Integrity Index | Precisión factual y coherencia estructural de la respuesta. |
+| BES | Bias & Error Score | Hallucinations, estereotipos o framing obsoleto ("colonial" vs "partner"). |
+| KDS | Knowledge Depth Score | Granularidad: proyectos específicos vs. afirmaciones genéricas. |
+| LPS | Latent Persuasion Score | Poder persuasivo y fuerza retórica de la narrativa. |
+| IVR | Institutional Visibility Rate | Menciones explícitas de instituciones (Comisión, Parlamento, INTPA). |
+| APV | Active Promotion Value | Si la IA recomienda proactivamente los programas como solución. |
+| CAR | Competitive Attribution Rate | Cuántas veces logros propios se malatribuyen a otros (USAID, China, UN). |
+| **NAS** ★ | Narrative Alignment Score | Composite 0-100. Encaje con los objetivos estratégicos. |
+
+#### GEORadar Travel — 8 KPIs para turismo
+
+| Acrónimo | Nombre | Qué mide |
+|----------|--------|----------|
+| AAS | Attribute Alignment Score | La IA describe el destino con los atributos trabajados (lujo, familiar, aventura). |
+| EDI | Experience Diversity Index | Variedad de experiencias asociadas (gastronomía, naturaleza, cultura, deporte). |
+| VISD | Seasonal Visibility Delta | Diferencia de visibilidad entre temporadas. |
+| BLI | Bucket List Index | Frecuencia en listas aspiracionales tipo "destinos para visitar antes de morir". |
+| SPS | Safety Perception Score | Cómo la IA describe la seguridad del destino. |
+| SC | Sustainability Score | Credenciales de sostenibilidad y turismo responsable. |
+| DHS | Destination Health Score | Salud reputacional: ausencia de framing negativo (turismo masivo). |
+| **LRP** ★ | Local Recommendation Position | Ranking en respuestas geolocalizadas. |
+
+> Próximas verticales con set propio: Auto · Banking · Consumer · Energy · Health.
+
+### Decodificación de intención y sentimiento
+
+Más que medir si te mencionan: descodificamos **cómo** te mencionan, ante **qué intención** del usuario y con **qué postura** implícita.
+
+**Capa 1 — Clasificación de intención del usuario** (4 categorías):
+
+| Intención | Definición |
+|-----------|------------|
+| Informational | Consultas generales sobre hechos o historia. Bajo riesgo, alto volumen. |
+| Transactional | "Cómo solicitar", "Dónde descargar". Alto valor, indica acción. |
+| Skeptical | Dudas sobre efectividad o motivos. Requiere trust-building. |
+| Comparative | "X vs Y". Crítico para posicionamiento competitivo. |
+
+**Capa 2 — Análisis de respuesta IA:**
+- **Implicit Sentiment Tone**: ¿*Apologetic* (defensivo) o *Assertive* (líder confiado)?
+- **Premise Validation**: ¿La IA acepta las asunciones negativas del prompt o las corrige?
+  - Usuario: "¿Por qué falló el proyecto X?"
+  - IA mala: "El proyecto falló porque…" → valida la premisa falsa.
+  - IA buena: "En realidad, el proyecto completó la Fase 1…" → corrige.
+
 ### Preguntas frecuentes
 
 **¿Qué es el algoritmo de completitud semántica?**
