@@ -26,7 +26,7 @@ A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y mue
 3. **Volumen 10× sobre el estándar.** 3.000–30.000 prompts personalizados por estudio, con lógica científica de cobertura del espacio real de decisión.
 4. **Metodología verificable.** Fuentes verificadas, análisis cruzado entre motores y razonamiento documentado. Qué dice la IA + de dónde lo saca + por qué.
 5. **Cobertura multinivel.** Persona × funnel × producto × atributo × mercado × idioma × competencia.
-6. **Más que una herramienta: un socio estratégico.** Equipo de consultores expertos que ejecuta contigo. Triada S.A.M. · LEO · DOC cierra el ciclo hacia la web.
+6. **Más que una herramienta: un socio estratégico.** Equipo de consultores expertos que ejecuta contigo. Triada S.A.M. · DOC · LEO cierra el ciclo hacia la web.
 
 ### No es un SaaS GEO. Es un sistema con agencia detrás.
 
@@ -37,7 +37,7 @@ A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y mue
 | Dashboard con datos | Plan accionable con KPI, plazo y responsable |
 | Auto-servicio: tú interpretas | Equipo de consultores que ejecuta contigo |
 | Lo que dice la IA | Qué dice + de dónde lo saca + por qué |
-| Una herramienta | Un sistema: GEOAtlas · GEOradar · GEOdesk · S.A.M. · LEO · DOC |
+| Una herramienta | Un sistema: GEOAtlas · GEOradar · GEOdesk · S.A.M. · DOC · LEO |
 
 ### GEORadar por industria
 
@@ -75,7 +75,7 @@ Cruzando la línea base oficial de competencia (Fase 1) con los resultados de lo
 Módulo que genera el corpus cruzando personas × funnel × producto × mercado × idioma × LLM. Volumen 3.000–30.000 prompts. Aplica completitud semántica para detenerse en el punto de saturación.
 
 **¿En qué se diferencia GEORadar de un SaaS GEO típico?**
-Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste multi-LLM. Validación de contenidos (SAM). Optimización técnica (LEO). Capa de consultoría y plan accionable —no solo dashboard.
+Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste multi-LLM. Validación y alineación de contenidos (SAM). Optimización técnica de la Agent Experience (DOC). Generación de contenidos multicanal (LEO). Capa de consultoría y plan accionable —no solo dashboard.
 
 **¿En cuánto tiempo se cierra un estudio?**
 4 semanas óptimo, 6 semanas máximo. Tras el estudio el dashboard sobre GEOdesk queda activo de forma continua.
@@ -215,7 +215,7 @@ Te informamos formalmente del **inicio del lanzamiento**. A partir de ese punto:
 - Cálculo de los KPIs: **Share of Voice, Mention Share, Sentiment Score, Source Attribution**.
 - Detección de **competidores en la sombra**, fuentes tóxicas, gaps de contenido y oportunidades.
 - Visualización dinámica de resultados e insights en **GEOdesk**.
-- Cierre del ciclo con la triada **S.A.M., LEO y DOC**: optimización de contenidos sobre los gaps detectados, generación de piezas agent-first a escala y validación de la web ante la IA.
+- Cierre del ciclo con la triada **S.A.M., DOC y LEO**: alineación semántica de contenidos sobre los gaps detectados (SAM), mejora técnica de la Agent Experience de la web (DOC) y generación de contenidos multicanal asistida en 30+ plataformas (LEO).
 
 **Qué necesitamos de ti.**
 - Disponibilidad para resolver dudas puntuales si aparece algún hallazgo que requiera contexto interno (ej. "¿este nombre que aparece como competidor es una sub-marca vuestra?").
@@ -318,7 +318,7 @@ Te informamos formalmente del **inicio del lanzamiento**. A partir de ese punto:
 
 **Duración orientativa.** 3–5 días naturales (puede solapar con la Fase 7).
 
-> **A partir de aquí**, el dashboard refleja la **evolución de tu marca y la de tu competencia en el tiempo**, y se convierte en la base para futuras iteraciones, optimizaciones de contenido (con S.A.M., nuestra Semantic Alignment Machine) y nuevos ciclos de auditoría.
+> **A partir de aquí**, el dashboard refleja la **evolución de tu marca y la de tu competencia**. Es la base para nuevos ciclos de monitorización y para activar el plan de acción con el soporte de la triada: **S.A.M.** (generación de contenido semánticamente alineado), **DOC** (mejora técnica de la Agent Experience en la web) y **LEO** (generación de contenidos asistida en 30+ plataformas).
 
 ---
 
