@@ -165,6 +165,14 @@ GEORadar entrega un plan de acción priorizado con cuatro tácticas:
 
 Cada acción se entrega con **KPI, plazo y responsable**.
 
+**¿Analizáis también los AI Overviews de Google?** *(NUEVO · MAYO 2026)*
+Sí. Desde mayo 2026 incluimos cobertura cuantitativa y cualitativa de los bloques **AI Overviews (AIO) de Google Search**, junto con ChatGPT, Gemini, Claude, Perplexity y Copilot.
+
+- AIO aparece en el **21% de búsquedas globales** y **>30% en YMYL** (salud, finanzas, legal). Crece **>70% YoY**.
+- Sin AIO, el informe GEO está incompleto.
+- Misma taxonomía e hipótesis que el resto del estudio. Pipeline propio de transformación prompts LLM → queries Google.
+- **Diferencial 498A**: coherencia narrativa GEORadar ↔ AIO sobre los mismos prompts validados.
+
 **¿Qué pasa con la confidencialidad de mis datos y la seguridad?**
 Los datos de cada estudio son **estrictamente confidenciales y aislados por cliente**. No se comparten, no se cruzan y no alimentan a otras marcas. Lo que sí compartimos es el aprendizaje metodológico, la ponderación de fuentes y las best practices acumuladas. Compromisos:
 - **Aislamiento por proyecto** — sin cross-contamination con otros clientes.
@@ -310,7 +318,7 @@ El corpus se cierra cuando alcanzamos el **punto de saturación**: añadir más 
 
 Te informamos formalmente del **inicio del lanzamiento**. A partir de ese punto:
 
-- El stack de GEORADAR queda activo durante **varios días**.
+- El stack de GEORADAR queda activo durante **varios días** (cubriendo ChatGPT, Gemini, Claude, Perplexity, Copilot y, desde mayo 2026, los bloques **AI Overviews de Google**).
 - Gestionamos rate limits, reintentos, anomalías y orquestación a escala industrial.
 - El volumen de datos generado se almacena en una arquitectura de **tres capas** (vectorial, fría, semántica) para análisis posterior.
 
