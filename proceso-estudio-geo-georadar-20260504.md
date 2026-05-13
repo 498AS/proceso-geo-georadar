@@ -165,6 +165,14 @@ GEORadar entrega un plan de acción priorizado con cuatro tácticas:
 
 Cada acción se entrega con **KPI, plazo y responsable**.
 
+**¿Qué pasa con la confidencialidad de mis datos y la seguridad?**
+Los datos de cada estudio son **estrictamente confidenciales y aislados por cliente**. No se comparten, no se cruzan y no alimentan a otras marcas. Lo que sí compartimos es el aprendizaje metodológico, la ponderación de fuentes y las best practices acumuladas. Compromisos:
+- **Aislamiento por proyecto** — sin cross-contamination con otros clientes.
+- **NDA por defecto** antes de cualquier intercambio sensible.
+- **Datos en propiedad del cliente** — dataset, dashboard, informes y plan son tuyos al cierre.
+- **Sin uso de tus datos para entrenamiento** de modelos o productos de terceros.
+- **Borrado a demanda** según tu política al terminar el contrato.
+
 **¿En qué se diferencia GEORadar de un SaaS GEO típico?**
 Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste multi-LLM. Validación y alineación de contenidos (SAM). Optimización técnica de la Agent Experience (DOC). Generación de contenidos multicanal (LEO). Capa de consultoría y plan accionable —no solo dashboard.
 
