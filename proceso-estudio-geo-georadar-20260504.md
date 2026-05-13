@@ -174,6 +174,14 @@ Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste mu
 **¿Qué entregamos al final?**
 Auditoría completa · KPIs de las 5 dimensiones · diagnóstico de narrativa/fuentes/percepción · validación de contenidos · recomendaciones priorizadas · plan de acción de 90 días · dashboard dinámico online.
 
+### Por los números
+
+- **~1.000.000** prompts personalizados simulados.
+- **9.000.000+** menciones de marca analizadas.
+- **16+** marcas líderes en producción.
+
+> Los datos de cada marca son **estrictamente confidenciales**. Pero la ponderación de fuentes, el aprendizaje metodológico y las best practices acumuladas se aplican a todos los proyectos.
+
 ### Probado en marcas líderes
 
 Coca-Cola · Ford · Banco Sabadell · Danone · Veolia · Adeslas · Iberostar · PortAventura · Fundación La Caixa · Imagin · Selena · 3Cat · AstraZeneca · AXA · Naos · Mataró

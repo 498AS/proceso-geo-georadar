@@ -960,6 +960,48 @@
     line-height: 1.55;
   }
 
+  /* ---------- BY THE NUMBERS (proof stats) ---------- */
+  .proof-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    margin: 32px 0 16px;
+    border-top: 1px solid rgba(255,255,255,0.16);
+    border-bottom: 1px solid rgba(255,255,255,0.16);
+  }
+  .proof-stats .stat {
+    padding: 28px 24px;
+    border-right: 1px solid rgba(255,255,255,0.12);
+  }
+  .proof-stats .stat:last-child { border-right: 0; }
+  .proof-stats .stat-num {
+    display: block;
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 56px;
+    font-weight: 600;
+    letter-spacing: -0.022em;
+    line-height: 1;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+  .proof-stats .stat-label {
+    display: block;
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 12.5px;
+    letter-spacing: 0.04em;
+    color: rgba(255,255,255,0.82);
+    line-height: 1.4;
+  }
+  .proof-note {
+    font-family: "Inter", system-ui, sans-serif;
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: rgba(255,255,255,0.7);
+    margin: 0 0 4px;
+    max-width: 720px;
+  }
+  .proof-note strong { color: #fff; }
+
   /* ---------- CLIENTS SECTION (REASON TO BELIEVE) ---------- */
   .clients-section {
     background: var(--ink);
@@ -1142,6 +1184,10 @@
     .versus-row > div:first-child { border-right: 0; border-bottom: 1px solid var(--line); }
     .industries-grid { grid-template-columns: 1fr; }
     .clients-grid { grid-template-columns: repeat(3, 1fr); gap: 24px 16px; }
+    .proof-stats { grid-template-columns: 1fr; }
+    .proof-stats .stat { border-right: 0; border-bottom: 1px solid rgba(255,255,255,0.12); padding: 22px 18px; }
+    .proof-stats .stat:last-child { border-bottom: 0; }
+    .proof-stats .stat-num { font-size: 42px; }
     .dimensions { grid-template-columns: 1fr; }
     .dim-card { border-right: 0; border-bottom: 1px solid var(--line); }
     .dim-card:last-child { border-bottom: 0; }
@@ -1740,6 +1786,21 @@
   <div class="container">
     <h2>Probado en marcas líderes</h2>
     <p class="lead">La elección de las marcas que entienden que la IA es el nuevo canal de descubrimiento.</p>
+    <div class="proof-stats">
+      <div class="stat">
+        <span class="stat-num">~1M</span>
+        <span class="stat-label">Prompts personalizados<br>simulados</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">9M+</span>
+        <span class="stat-label">Menciones de marca<br>analizadas</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">16+</span>
+        <span class="stat-label">Marcas líderes<br>en producción</span>
+      </div>
+    </div>
+    <p class="proof-note">Los datos de cada marca son <strong>estrictamente confidenciales</strong>. Pero la ponderación de fuentes, el aprendizaje metodológico y las best practices acumuladas se aplican a todos los proyectos.</p>
     <div class="clients-grid">
       <div class="logo-cell"><img src="client-logos/coca-cola.png" alt="Coca-Cola"></div>
       <div class="logo-cell"><img src="client-logos/ford.png" alt="Ford"></div>
