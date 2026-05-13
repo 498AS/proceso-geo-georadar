@@ -147,6 +147,15 @@ El dashboard procesa los datos de las IAs y los traduce en métricas y diagnóst
 3. **Brechas en Mention Share / SoV** — caídas en nichos donde se debería liderar (ej. Coca-Cola: 62% global vs 34% en "bebidas saludables").
 4. **Matriz DAFO** en el diagnóstico estratégico — síntesis visual para alimentar el plan de acción.
 
+**¿Qué información aporta la Source Attribution sobre mi reputación?**
+Identifica qué páginas web y URLs construyen la percepción de tu marca dentro de los LLMs — y de dónde sacan la información y por qué. Aporta cuatro tipos de inteligencia:
+1. **Fuentes externas** — qué medios y plataformas inyectan sentimiento positivo o negativo.
+2. **Tu propia web como fuente** — peso e influencia de tu site y landings; qué conocimiento extraen los LLMs.
+3. **Knowledge gaps** — dónde los LLMs no encuentran información sobre tu marca en tu web.
+4. **Media Matrix** — prioriza medios, mide ROI como fuente para IAs y detecta su aportación de sentimiento.
+
+Ejemplos: Nike → 12% de respuestas vienen de Reddit (sentiment −0,22), 8% de RunnersWorld (+0,38). Coca-Cola → un agregador de recetas dominante donde no está indexada, y por eso la IA recomienda Fanta en consultas de maridaje.
+
 **¿En qué se diferencia GEORadar de un SaaS GEO típico?**
 Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste multi-LLM. Validación y alineación de contenidos (SAM). Optimización técnica de la Agent Experience (DOC). Generación de contenidos multicanal (LEO). Capa de consultoría y plan accionable —no solo dashboard.
 
