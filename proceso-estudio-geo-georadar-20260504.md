@@ -156,6 +156,15 @@ Identifica qué páginas web y URLs construyen la percepción de tu marca dentro
 
 Ejemplos: Nike → 12% de respuestas vienen de Reddit (sentiment −0,22), 8% de RunnersWorld (+0,38). Coca-Cola → un agregador de recetas dominante donde no está indexada, y por eso la IA recomienda Fanta en consultas de maridaje.
 
+**¿Cómo puedo actuar sobre las fuentes de mis competidores?**
+GEORadar entrega un plan de acción priorizado con cuatro tácticas:
+1. **Conquistar fuentes no indexadas** — aparecer en plataformas que alimentan la IA y te ignoran (ej. Coca-Cola en el agregador de recetas donde la IA recomienda Fanta).
+2. **PR en territorios dominados por competidores en la sombra** — atacar el nicho con campaña dirigida (ej. Nike en "sostenibilidad textil" dominada por Veja/Allbirds).
+3. **Inyectar contenido en fuentes con alto pickup** — sembrar piezas donde la IA prefiere leer (ej. Nike en RunnersWorld y Outside, sentiment +0,38).
+4. **Optimizar tus propias fuentes** con la triada: SAM valida y dirige reescrituras, LEO genera contenido multicanal a escala, DOC garantiza la Agent Experience técnica.
+
+Cada acción se entrega con **KPI, plazo y responsable**.
+
 **¿En qué se diferencia GEORadar de un SaaS GEO típico?**
 Cobertura semántica amplia y personalizada vs. prompts genéricos. Contraste multi-LLM. Validación y alineación de contenidos (SAM). Optimización técnica de la Agent Experience (DOC). Generación de contenidos multicanal (LEO). Capa de consultoría y plan accionable —no solo dashboard.
 
