@@ -19,6 +19,15 @@
 
 `Brand Profile` → `GEOAtlas` → `GEOradar` → `GEOdesk` → triada `S.A.M. · LEO · DOC`
 
+## KPIs por industria — fuente canónica
+
+Para el detalle exhaustivo de los KPIs propietarios por vertical (fórmulas, escalas, ejemplos), consultar el **KPI Cheat Sheet canónico**:
+
+- **Página viva**: https://docs-geo.498as.com/kpis.html
+- **Repo versionado**: https://github.com/498AS/docs-geo
+
+El cheat sheet cubre las **9 verticales** de GEORadar con sus KPIs propietarios y los 5 KPIs generales universales. Naming canónico: Travel · Finance · Health · Education · Corporate · Consumer · Energy · Mobility · Civic.
+
 ## Archivos
 
 | Archivo | Descripción |

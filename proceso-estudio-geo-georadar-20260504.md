@@ -78,7 +78,9 @@ A diferencia de la mayoría de SaaS GEO —baterías de prompts genéricas y mue
 
 ### KPIs propietarios por industria
 
-Además de los Core, cada vertical suma 8 KPIs propietarios que decodifican el ADN narrativo de las respuestas IA.
+Además de los Core, cada vertical suma KPIs propietarios que decodifican el ADN narrativo de las respuestas IA.
+
+> 📌 **Fuente canónica de los KPIs por vertical**: [KPI Cheat Sheet GEORadar](https://docs-geo.498as.com/kpis.html) — fórmulas verbatim, escalas y ejemplos para las **9 verticales** (Travel · Finance · Health · Education · Corporate · Consumer · Energy · Mobility · Civic). Repo versionado: [`498AS/docs-geo`](https://github.com/498AS/docs-geo).
 
 #### GEORadar Civic — 8 KPIs para instituciones públicas
 > Piloto: EU/INTPA en El Salvador.
@@ -107,7 +109,7 @@ Además de los Core, cada vertical suma 8 KPIs propietarios que decodifican el A
 | DHS | Destination Health Score | Salud reputacional: ausencia de framing negativo (turismo masivo). |
 | **LRP** ★ | Local Recommendation Position | Ranking en respuestas geolocalizadas. |
 
-> Próximas verticales con set propio: Auto · Banking · Consumer · Energy · Health.
+> **Actualización 2026-05-14**: las 9 verticales (Travel · **Finance** · Health · **Education** · Corporate · Consumer · Energy · **Mobility** · Civic) están cerradas con su set propietario de KPIs. Detalle completo en el [KPI Cheat Sheet canónico](https://docs-geo.498as.com/kpis.html). Naming actualizado: *Banking* → **Finance**, *Auto/Automotive* → **Mobility**.
 
 ### Decodificación de intención y sentimiento
 
